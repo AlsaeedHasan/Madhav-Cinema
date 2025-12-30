@@ -28,3 +28,8 @@ Route::get('/about', fn() => view('about'));
 Route::get('/password', fn() => view('password'));
 Route::get('/bind-account', fn() => view('bind-account'));
 
+// Feature Pages
+Route::get('/wealth-box', fn() => view('wealth-box'));
+Route::get('/lucky-draw', fn() => view('lucky-draw'));
+Route::get('/records', fn() => view('records'));
+
